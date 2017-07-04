@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IndoNepal.MyClass</id>
+    <version>1.0.0</version>
+    <title>IndoNepal</title>
+    <authors>Ankit</authors>
+    <owners>Eko India </owners>
+    
+    <projectUrl>https://github.com/yadav-ankit/Internship/tree/master/IndoNepal</projectUrl>
+    
+
+    <description>Tells about the Indo Nepal API</description>
+    
+    <copyright>Copyright 2017</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\bin\Debug\IndoNepal.dll" target="lib"></file>
+
+  </files>
+</package>

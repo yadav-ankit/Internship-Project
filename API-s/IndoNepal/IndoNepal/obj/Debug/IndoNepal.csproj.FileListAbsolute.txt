@@ -1,0 +1,7 @@
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\bin\Debug\IndoNepal.dll
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\bin\Debug\IndoNepal.pdb
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\bin\Debug\RestSharp.dll
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\bin\Debug\RestSharp.xml
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\obj\Debug\IndoNepal.csprojResolveAssemblyReference.cache
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\obj\Debug\IndoNepal.dll
+C:\Users\Ankit Yadav\Desktop\IndoNepal\IndoNepal\obj\Debug\IndoNepal.pdb
