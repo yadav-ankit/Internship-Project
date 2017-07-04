@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
@@ -207,7 +207,7 @@ namespace Telegram.Bot.Examples.Echo
                 //Response.Write(str + " already exist !!!");
 
                 string message = "hi " + str;
-                message = message + "you can type /about_us\n/contact_us\n/send_money";
+                message = message + "you can type \n/about_us\n/contact_us\n/send_money";
                 send_confirmation( message);
                 return;
 
@@ -370,8 +370,8 @@ namespace Telegram.Bot.Examples.Echo
                     count++;
                     var message = update.Message;
 
-                 
-                    if ( update.Type == UpdateType.MessageUpdate && message.Type == MessageType.ContactMessage)
+
+                    if (update.Type == UpdateType.MessageUpdate && message.Type == MessageType.ContactMessage)
                     {
                         Console.WriteLine(update.Message.Chat.FirstName + " shared contact");
 
@@ -393,7 +393,7 @@ namespace Telegram.Bot.Examples.Echo
                                 else
                                     ans = ph;
                         intiater = ans;
-                       System.Console.WriteLine(intiater);
+                        System.Console.WriteLine(intiater);
                         my_back_end(intiater);
 
                     }
@@ -403,7 +403,7 @@ namespace Telegram.Bot.Examples.Echo
                         if (message.Text == ("/start"))
                         {
                             Console.WriteLine(update.Message.Chat.FirstName + " start bot");
-                            await Bot.SendTextMessageAsync(message.Chat.Id, "Share your contact to get started", replyMarkup: keyboard);
+                            await Bot.SendTextMessageAsync(message.Chat.Id, "Share your contact to get started", replyMarkup: null);
 
                             var usage = @"Eko Bot:
             /start   - start conversation
@@ -512,13 +512,15 @@ namespace Telegram.Bot.Examples.Echo
                                                                 {
                                                                     await Bot.SendTextMessageAsync(update.Message.Chat.Id, "Enter the amount", replyMarkup: null);
                                                                     send_money(intiater, recipt, "400");
+                                                                    await Bot.SendTextMessageAsync(message.Chat.Id, update.Message.Chat.FirstName + " money transferred to " + ans, replyMarkup: null);
+                                                           
                                                                     break;
 
                                                                 }
                                                                 else
                                                                 {
                                                                     await Bot.SendTextMessageAsync(update.Message.Chat.Id, "No the recipient doesn't exist", replyMarkup: null);
-                                                                    break;
+                                                                    return;
                                                                 }
 
                                                                
@@ -529,7 +531,7 @@ namespace Telegram.Bot.Examples.Echo
                                                         if (money_sended)
                                                         {
                                                             money_sended = false;
-                                                            await Bot.SendTextMessageAsync(message.Chat.Id, update.Message.Chat.FirstName + " money transferred to " + ans, replyMarkup: null);
+                                                            
                                                             break;
                                                         }
                                                            
