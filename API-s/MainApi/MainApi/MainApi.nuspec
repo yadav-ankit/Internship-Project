@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MainApi.MyClass</id>
+    <version>1.0.0</version>
+    <title>MainApi</title>
+    <authors>Ankit</authors>
+    <owners>Eko India </owners>
+
+    <projectUrl>https://github.com/yadav-ankit/Internship/tree/master/EkoIndiaAPi/EkoIndiaAPi</projectUrl>
+  
+    <description>Tells about the API's of the company</description>
+  
+    <copyright>Copyright 2017</copyright>
+    
+  </metadata>
+  <files>
+    <file src="C:\Users\Ankit Yadav\Desktop\MainApi\MainApi\bin\Debug\MainApi.dll" target="lib"></file>
+
+  </files>
+</package>
