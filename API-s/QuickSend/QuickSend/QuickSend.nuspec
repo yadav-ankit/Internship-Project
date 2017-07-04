@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>QuickSend.MyClass</id>
+    <version>1.0.0</version>
+    <title>QuickSend</title>
+    <authors>Ankit</authors>
+    <owners>Eko India </owners>
+
+    <projectUrl>https://github.com/yadav-ankit/Internship/tree/master/QuickSend</projectUrl>
+    
+    
+    <description>Tells about the Split trabsactions API</description>
+   
+    <copyright>Copyright 2017</copyright>
+   
+  </metadata>
+  <files>
+    <file src="C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\bin\Debug\QuickSend.dll" target="lib"></file>
+
+  </files>
+</package>

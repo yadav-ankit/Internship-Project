@@ -1,0 +1,6 @@
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\bin\Debug\QuickSend.dll
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\bin\Debug\QuickSend.pdb
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\bin\Debug\RestSharp.dll
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\bin\Debug\RestSharp.xml
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\obj\Debug\QuickSend.dll
+C:\Users\Ankit Yadav\Desktop\QuickSend\QuickSend\obj\Debug\QuickSend.pdb
